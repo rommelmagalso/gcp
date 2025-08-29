@@ -25,7 +25,7 @@ jobs:
             cd /home/rommel/
             terraform init
             terraform apply --auto-approve
-            terraform output rommel4-my-public-ip > ip.txt
+            terraform output > ip.txt
             echo "" >> ip.txt 
 
          
